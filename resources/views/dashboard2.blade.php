@@ -28,7 +28,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="text-center"><input type="checkbox"></td>
+                                        <td class="text-center"><input type="checkbox" name="presion" onClick="presion()"></td>
                                         <td>Lenguajes Formales</td>
                                         <td class="">
                                                         
@@ -181,70 +181,9 @@
                     </div>
 
                     <div class="widget-content">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th><div class="th-content">Customer</div></th>
-                                        <th><div class="th-content">Product</div></th>
-                                        <th><div class="th-content">Invoice</div></th>
-                                        <th><div class="th-content th-heading">Price</div></th>
-                                        <th><div class="th-content">Status</div></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><div class="td-content customer-name"><img src="{{asset('storage/img/90x90.jpg')}}" alt="avatar">Andy King</div></td>
-                                        <td><div class="td-content product-brand">Nike Sport</div></td>
-                                        <td><div class="td-content">#76894</div></td>
-                                        <td><div class="td-content pricing"><span class="">$88.00</span></div></td>
-                                        <td><div class="td-content"><span class="badge outline-badge-primary">Shipped</span></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><div class="td-content customer-name"><img src="{{asset('storage/img/90x90.jpg')}}" alt="avatar">Irene Collins</div></td>
-                                        <td><div class="td-content product-brand">Speakers</div></td>
-                                        <td><div class="td-content">#75844</div></td>
-                                        <td><div class="td-content pricing"><span class="">$84.00</span></div></td>
-                                        <td><div class="td-content"><span class="badge outline-badge-success">Paid</span></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><div class="td-content customer-name"><img src="{{asset('storage/img/90x90.jpg')}}" alt="avatar">Laurie Fox</div></td>
-                                        <td><div class="td-content product-brand">Camera</div></td>
-                                        <td><div class="td-content">#66894</div></td>
-                                        <td><div class="td-content pricing"><span class="">$126.04</span></div></td>
-                                        <td><div class="td-content"><span class="badge outline-badge-danger">Pending</span></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><div class="td-content customer-name"><img src="{{asset('storage/img/90x90.jpg')}}" alt="avatar">Luke Ivory</div></td>
-                                        <td><div class="td-content product-brand">Headphone</div></td>
-                                        <td><div class="td-content">#46894</div></td>
-                                        <td><div class="td-content pricing"><span class="">$56.07</span></div></td>
-                                        <td><div class="td-content"><span class="badge outline-badge-success">Paid</span></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><div class="td-content customer-name"><img src="{{asset('storage/img/90x90.jpg')}}" alt="avatar">Ryan Collins</div></td>
-                                        <td><div class="td-content product-brand">Sport</div></td>
-                                        <td><div class="td-content">#89891</div></td>
-                                        <td><div class="td-content pricing"><span class="">$108.09</span></div></td>
-                                        <td><div class="td-content"><span class="badge outline-badge-primary">Shipped</span></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><div class="td-content customer-name"><img src="{{asset('storage/img/90x90.jpg')}}" alt="avatar">Nia Hillyer</div></td>
-                                        <td><div class="td-content product-brand">Sunglasses</div></td>
-                                        <td><div class="td-content">#26974</div></td>
-                                        <td><div class="td-content pricing"><span class="">$168.09</span></div></td>
-                                        <td><div class="td-content"><span class="badge outline-badge-primary">Shipped</span></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><div class="td-content customer-name"><img src="{{asset('storage/img/90x90.jpg')}}" alt="avatar">Sonia Shaw</div></td>
-                                        <td><div class="td-content product-brand">Watch</div></td>
-                                        <td><div class="td-content">#76844</div></td>
-                                        <td><div class="td-content pricing"><span class="">$110.00</span></div></td>
-                                        <td><div class="td-content"><span class="badge outline-badge-success">Paid</span></div></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                      
+                        <div id='calendar'></div>    
+                        
                     </div>
                 </div>
             </div>

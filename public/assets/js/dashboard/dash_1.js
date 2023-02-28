@@ -11,6 +11,34 @@ try {
         Daily Sales | Options
     =============================
 */
+document.addEventListener('DOMContentLoaded', function() {
+  var calendarEl = document.getElementById('calendar');
+
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    timeZone: 'UTC',
+    initialView: 'resourceTimeGridDay',
+    resources: [
+      { id: 'a', title: 'Lunes' },
+      { id: 'b', title: 'Martes'},
+      { id: 'c', title: 'Miercoles' },
+      { id: 'd', title: 'Jueves' },
+      { id: 'e', title: 'Viernes' }
+    ],
+    events: 'https://fullcalendar.io/api/demo-feeds/events.json?with-resources=4&single-day'
+  });
+
+  calendar.render();
+});
+
+function presion(){
+  alert("Error! Has llegado al maximo de notas por inscribir!");
+}
+function adicion(){
+  alert("Error! Has llegado al maximo de materias por adicionar!");
+}  
+function levantamiento(){
+  alert("Error! Has llegado al maximo de materias por levantar!");
+}
 var d_2options1 = {
   chart: {
         height: 160,

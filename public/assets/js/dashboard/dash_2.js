@@ -12,8 +12,56 @@ try {
             Visitor Statistics | Options
         ======================================
     */
+        document.addEventListener('DOMContentLoaded', function() {
+          var calendarEl = document.getElementById('calendar');
+        
+          var calendar = new FullCalendar.Calendar(calendarEl, {
+            timeZone: 'UTC',
+            initialView: 'resourceTimeGridDay',
+            resources: [
+              { id: 'a', title: 'Lunes' },
+              { id: 'b', title: 'Martes'},
+              { id: 'c', title: 'Miercoles' },
+              { id: 'd', title: 'Jueves' },
+              { id: 'e', title: 'Viernes' }
+            ],
+            events: 'https://fullcalendar.io/api/demo-feeds/events.json?with-resources=4&single-day'
+          });
+        
+          calendar.render();
+        });
 
-    
+        function deseleccionar() {
+          for (let i=0; i < document.f1.elements.length; i++) {
+              if(document.f1.elements[i].type === "checkbox") {
+                  document.f1.elements[i].checked = false;
+              }
+          }
+      }
+      
+
+        function presion(){
+          alert("Error! Has llegado al maximo de materias por inscribir!");
+          for (let i=0; i < document.f1.elements.length; i++) {
+            if(document.f1.elements[i].type === "checkbox") {
+                document.f1.elements[i].checked = false;
+            }
+        }
+        }  
+        function adicion(){
+          alert("Error! Has llegado al maximo de materias por adicionar!");
+          for (let i=0; i < document.f1.elements.length; i++) {
+            if(document.f1.elements[i].type === "checkbox") {
+                document.f1.elements[i].checked = false;
+            }
+        }
+        }  
+        function levantamiento(){
+          alert("Error! Has llegado al maximo de materias por levantar!");
+          document.querySelectorAll('#formElement input[type=checkbox]').forEach(function(checkElement) {
+            checkElement.checked = false;
+        });
+        }
     // Total Visits
     var myTable = document.querySelector("table"); 
     function agregarFila(){ 

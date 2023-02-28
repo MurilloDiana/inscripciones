@@ -51,6 +51,53 @@
                                         <td class=""><span class="">L-M-V : 07:00 - 08:30</span></td>
                                     </tr>
                                     <tr>
+                                        <td class="text-center"><input type="checkbox" name="presion1" onClick="adicion()"></td>
+                                        <td>Sistema de informacion I</td>
+                                        <td class="">
+                                                        
+                                            <div class="dropdown custom-dropdown">
+                                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                                                </a>
+
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                                                    <a class="dropdown-item" href="javascript:void(0); selected">SA</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);">SC</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);">MV</a>
+                                                   
+                                                </div>
+                                            </div>
+
+                                        </td>
+                                        <td class="text-center"><span class="badge badge-success">8</span></td>
+                                        <td class=""><span class="">Ing Gino Barroso</span></td>
+                                        <td class=""><span class="">L-M-V : 07:00 - 08:30</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><input type="checkbox" name="levantamiento" onClick="levantamiento()"></td>
+                                        <td>Compiladores</td>
+                                        <td class="">
+                                                        
+                                            <div class="dropdown custom-dropdown">
+                                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                                                </a>
+
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                                                    <a class="dropdown-item" href="javascript:void(0); selected">SA</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);">SC</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);">MV</a>
+                                                   
+                                                </div>
+                                            </div>
+
+                                        </td>
+                                        <td class="text-center"><span class="badge badge-success">8</span></td>
+                                        <td class=""><span class="">Ing Gino Barroso</span></td>
+                                        <td class=""><span class="">L-M-V : 07:00 - 08:30</span></td>
+                                    </tr>
+
+                                    <tr>
                                         <td class="text-center">
                                             <div class="n-chk">
                                                 <label class="new-control new-checkbox new-checkbox-rounded new-checkbox-text">

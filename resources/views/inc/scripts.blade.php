@@ -29,17 +29,20 @@
       {{-- Dashboard 2 --}}
       <script src="{{asset('plugins/apex/apexcharts.min.js')}}"></script>
       <script src="{{asset('assets/js/dashboard/dash_1.js')}}"></script>
+      <script src=" https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/index.global.min.js "></script>
       @break
 
       @case('adicion')
       {{-- Dashboard 2 --}}
       <script src="{{asset('plugins/apex/apexcharts.min.js')}}"></script>
       <script src="{{asset('assets/js/dashboard/dash_1.js')}}"></script>
+      <script src=" https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/index.global.min.js "></script>
       @break
       @case('confirmacion')
       {{-- Dashboard 2 --}}
       <script src="{{asset('plugins/apex/apexcharts.min.js')}}"></script>
       <script src="{{asset('assets/js/dashboard/dash_1.js')}}"></script>
+      <script src=" https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/index.global.min.js "></script>
       @break
     @case('calendar')
       {{-- App Calendar --}}
