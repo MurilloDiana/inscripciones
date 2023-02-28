@@ -182,7 +182,37 @@
 
                     <div class="widget-content">
                       
-                        <div id='calendar'></div>    
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th><div class="th-content">Materia</div></th>
+                                        <th><div class="th-content">Grupo</div></th>
+                                        <th><div class="th-content">Horario</div></th>
+                                        <th><div class="th-content">Metodo</div></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                       
+                                        <td><div class="td-content product-brand">Estructura de Datos 2</div></td>
+                                        <td><div class="td-content">SA</div></td>
+                                        <td><div class="td-content pricing"><span class="">L-M-V : 07:00 - 08:30</span></div></td>
+                                        <td><div class="td-content"><span class="badge outline-badge-success">Inscripcion</span></div></td>
+                                    </tr>
+                                    <tr>
+                                       
+                                        <td><div class="td-content product-brand">Base de Datos  2</div></td>
+                                        <td><div class="td-content">SC</div></td>
+                                        <td><div class="td-content pricing"><span class="">J-V : 07:00 - 09:30</span></div></td>
+                                        <td><div class="td-content"><span class="badge outline-badge-success">Inscripcion</span></div></td>
+                                    </tr>
+                                    
+                                    <button class=" btn btn-primary"> Confirmar Inscripcion</button>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>    
                         
                     </div>
                 </div>

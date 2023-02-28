@@ -31,7 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function presion(){
-  alert("Error! Has llegado al maximo de notas por inscribir!");
+  alert("Error! Has llegado al maximo de materias por inscribir!");
+}
+function choque(){
+  alert("Error! La materia Lenguajes Formales cruza con Estructura de Datos 2!");
 }
 function adicion(){
   alert("Error! Has llegado al maximo de materias por adicionar!");

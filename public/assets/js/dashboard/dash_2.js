@@ -38,7 +38,9 @@ try {
               }
           }
       }
-      
+      function choque(){
+        alert("Error! La materia Lenguajes Formales cruza con Estructura de Datos 2!");
+      }
 
         function presion(){
           alert("Error! Has llegado al maximo de materias por inscribir!");

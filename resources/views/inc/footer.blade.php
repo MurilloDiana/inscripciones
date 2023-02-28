@@ -676,7 +676,7 @@
     <!--  BEGIN FOOTER  -->
     <div class="footer-wrapper">
         <div class="footer-section f-section-1">
-            <p class="">Copyright © 2023 <a target="_blank" href="https://designreset.com">Proyect IHC</a>, Aiudenme tengo sueño.</p>
+            <p class="">Copyright © 2023 <a target="_blank" href="https://designreset.com">Proyect IHC</a> </p>
         </div>
         
     </div>
